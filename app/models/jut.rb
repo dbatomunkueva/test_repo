@@ -1,0 +1,2 @@
+class Jut < ApplicationRecord
+end

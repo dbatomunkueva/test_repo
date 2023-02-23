@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Juts</h1>
+
+<div id="juts">
+  <% @juts.each do |jut| %>
+    <%= render jut %>
+    <p>
+      <%= link_to "Show this jut", jut %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New jut", new_jut_path %>

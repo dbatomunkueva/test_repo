@@ -1,0 +1,2 @@
+module JutsHelper
+end

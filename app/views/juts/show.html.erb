@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @jut %>
+
+<div>
+  <%= link_to "Edit this jut", edit_jut_path(@jut) %> |
+  <%= link_to "Back to juts", juts_path %>
+
+  <%= button_to "Destroy this jut", @jut, method: :delete %>
+</div>
